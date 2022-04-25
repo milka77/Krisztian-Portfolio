@@ -1,10 +1,14 @@
-
-
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Portfolio from "./components/portfolio/Portfolio";
 
 function App() {
   return (
-    
-        <h1>React My Portfolio</h1>
+    <>
+      <Header />
+      <About />
+      <Portfolio />
+    </>
       
   );
 }

@@ -1,13 +1,134 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* VARIABLES */
+:root {
+  /* --color-bg: #003060;
+  --color-bg-variant: #055C9D;
+  --color-primary: #0E86D4;
+  --color-primary-light: #68BBE3;
+  --color-primary-variant: #3283ac; */
+  --color-bg: #1f1f38e0;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-light: #4db5ff62;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: rgba(245, 246, 250,1.0);
+  --color-light: rgba(220, 221, 225,0.8);
+
+  /* EXTRA COLORS */
+  --color-gray: rgba(127, 143, 166,1.0);
+  --color-gray-variant: rgba(113, 128, 147,1.0);
+  --color-light-blue: #00b4d8;
+  --color-light-blue-variant: #00a6fb;
+
+  /* FONTS  */
+  --font-poppins: 'Poppins', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-roboto-mono: 'Roboto Mono', monospace;
+
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+/* ----------- BASIC STYLES  -----------------*/
+body {
+  font-family: var(--font-poppins);
+  /* background-color: var(--color-bg); */
+  color: var(--color-white);
+  line-height: 1.7;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url(./assets/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* ------------- General Styles --------------- */
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary)
+}
+
+.btn:hover {
+  color: var(--color-white);
+  color: var(--color-bg);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/* ------------------ Media Queries (Medium devices) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+}
+
+/* ------------------ Media Queries (Small devices) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 { 
+    margin-bottom:  2rem;
+  }
 }
