@@ -1,21 +1,60 @@
 header {
   height: 100vh;
-  
   /* background-image: url(../../assets/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; */
   position: relative;
   z-index: 1;
-  color: var(--color-light-blue);
+  /* color: var(--color-light-blue); */
   
 }
 
 .header__container {
-  text-align: center;
-  padding-top: 5rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__row{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
   
+}
+
+.header__first-row-big,
+.header__name-big,
+.header__title-big {
+  font-size: 2rem;
+  transition: all 350ms ease-in-out;
+}
+
+.header__name-big {
+  font-size: 4rem;
+}
+
+.header__title-big {
+  font-size: 2.6rem;
+}
+
+.name {
+  font-size: 2.6rem;
+}
+
+/* HOVER EFFECTS */
+.header__name-big:hover {
+  transform: rotateZ(12deg);
+}
+
+.header__title-big:hover {
+  transform: rotateZ(-11deg);
+}
+
+.header__first-row-big:hover {
+  transform: rotateZ(-10deg);
 }
 
 .overlay {
@@ -57,7 +96,7 @@ header {
   width: 1px;
   height: 100px;
   margin: 0 auto;
-  background-color: var(--color-light-blue);
+  background-color: var(--color-white);
 }
 
 .social-email__wrap {

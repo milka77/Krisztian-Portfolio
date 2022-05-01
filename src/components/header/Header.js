@@ -7,11 +7,11 @@ const Header = () => {
   return (
     <header>
       <div className='overlay'></div>
-      <div className='cotnainer header__container'>
+      <div className='container header__container'>
         <Sociallinks />
-        <h4>Hello I'm</h4>
-        <h1>Krisztian Keseru</h1>
-        <h4 className='subheader'>Full Stack Developer</h4>
+        <div className='header__row'>Hello <span className='header__first-row-big'>I'm</span></div>
+        <div className='header__row name'><span className='header__name-big'>Krisztian</span> Keseru</div>
+        <div className='header__row'>Full-Stack <span className='header__title-big'>Developer</span></div>
 
         
 
