@@ -2,3 +2,94 @@
   height: 100vh;
   background-color: var(--color-bg);
 }
+
+#services {
+  padding-top: 4rem;
+}
+
+.container h5,
+.container h2 {
+  text-align: center;
+}
+
+.skills__content {
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 75%;
+  
+}
+
+.skills__font-end,
+.skills__back-end {
+  border: 1px solid white;
+  padding: 2rem 2rem 4rem 2rem;
+  border-radius: 1rem;
+}
+
+.skill-card__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+  gap: 1rem;
+}
+
+.skill-card {
+  border-radius: 1rem;
+  display: flex;
+  gap: 1rem; 
+  border: 1px solid transparent;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-card:hover {
+  border-color: var(--color-bg-variant);
+}
+
+.skill-card__icon {
+  align-self: center;
+  color: var(--color-light-blue);
+}
+
+.skill-card__detail small{
+  color: var(--color-light);
+}
+
+.skills__title {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.skills__secondary {
+  font-size: 0.9rem;
+  padding-left: 0.6rem;
+}
+
+/* ------------------ Media Queries (Medium devices) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .skill-card__content {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/* ------------------ Media Queries (Small devices) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  .skills__content {
+    grid-template-columns: 1fr;
+  }
+
+  section > h2 { 
+    margin-bottom:  2rem;
+  }
+}
