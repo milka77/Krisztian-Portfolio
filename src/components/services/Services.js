@@ -35,7 +35,7 @@ const Services = () => {
                   <FaHtml5 />
                 </div>
                 <div className='skill-card__detail'>
-                  <h4>HTML5</h4>
+                  <h4>HTML</h4>
                   <small>Experienced</small>
                 </div>
               </article>
@@ -45,7 +45,7 @@ const Services = () => {
                   <FaCss3Alt />
                 </div>
                 <div className='skill-card__detail'>
-                  <h4>CSS3</h4>
+                  <h4>CSS</h4>
                   <small>Advanced</small>
                 </div>
               </article>
