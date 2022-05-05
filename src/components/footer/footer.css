@@ -1,0 +1,19 @@
+footer {
+  background-color: var(--color-bg-dark);
+  padding: 1.5rem 0 1rem 0;
+  text-align: center;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+}
+
+.footer__icon {
+  margin-bottom: -2px;
+}
+
+.copyright {
+  padding: 1rem 0;
+}
