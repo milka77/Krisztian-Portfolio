@@ -18,6 +18,7 @@
   --color-primary-light: #68BBE3;
   --color-primary-variant: #3283ac; */
   --color-bg: #1f1f38;
+  --color-bg-trans: rgba(31, 31, 56, 0.678);
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-light: #4db5ff62;
@@ -47,7 +48,6 @@
 /* ----------- BASIC STYLES  -----------------*/
 body {
   font-family: var(--font-roboto-mono);
-  /* background-color: var(--color-bg); */
   color: var(--color-white);
   line-height: 1.7;
   

@@ -3,6 +3,7 @@ import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Nav from "./components/nav/Nav";
 import Services from './components/services/Services'
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Contact />
     </>
       
   );
