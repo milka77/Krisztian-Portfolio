@@ -13,7 +13,7 @@ const Footer = () => {
             <li>Quick Links</li>
             <li><a href='#'><small>Home</small></a></li>
             <li><a href='#about'><small>About</small></a></li>
-            <li><a href='#skills'><small>Skills</small></a></li>
+            <li><a href='#services'><small>Skills</small></a></li>
             <li><a href='#portfolio'><small>Portfolio</small></a></li>
             
             

@@ -17,9 +17,9 @@ const Nav = () => {
       
         <ul className='nav-list'>
           <li><a href='#'><AiOutlineHome  className='nav-list__item'/></a></li>
-          <li><a href='#'><AiOutlineUser  className='nav-list__item'/></a></li>
-          <li><a href='#' ><BiBook  className='nav-list__item'/></a></li>
-          <li><a href='#' ><AiOutlineMessage  className='nav-list__item'/></a></li>
+          <li><a href='#about'><AiOutlineUser  className='nav-list__item'/></a></li>
+          <li><a href='#portfolio' ><BiBook  className='nav-list__item'/></a></li>
+          <li><a href='#contact' ><AiOutlineMessage  className='nav-list__item'/></a></li>
          
           {/* <li><RiServiceLine /></li> */}
 
