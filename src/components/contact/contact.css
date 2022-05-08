@@ -1,5 +1,5 @@
 #contact {
-  background-color: rgba(0,0,0,0.4);
+  background-color: var(--color-bg-overlay);
   padding-bottom: 3rem;
 }
 

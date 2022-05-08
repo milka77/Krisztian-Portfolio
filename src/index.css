@@ -21,6 +21,7 @@
   --color-bg-dark: #101016;
   --color-bg-trans: rgba(31, 31, 56, 0.678);
   --color-bg-variant: #2c2c6c;
+  --color-bg-overlay: rgba(0, 0, 0, 0.4);
   --color-primary: #4db5ff;
   --color-primary-light: #4db5ff62;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
