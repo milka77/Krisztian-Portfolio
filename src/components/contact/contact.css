@@ -108,6 +108,11 @@
   .contact__content {
     width: 100%;
   }
+
+  .form-message-success, 
+  .form-message-error {
+    width: 75%;
+  }
 }
 
 /* ------------------ Media Queries (Small devices) */

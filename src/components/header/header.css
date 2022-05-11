@@ -1,13 +1,7 @@
 header {
   height: 100vh;
-  /* background-image: url(../../assets/bg1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
   position: relative;
-  z-index: 1;
-  /* color: var(--color-light-blue); */
-  
+  z-index: 1;  
 }
 
 .header__container {
@@ -156,10 +150,6 @@ header {
   .container {
     width: var(--container-width-sm);
   }
-
-  /* .header__name-big {
-    font-size: 2rem;
-  } */
 
   .header__row-2,
   .header__row-3 {
