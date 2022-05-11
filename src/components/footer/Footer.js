@@ -9,13 +9,15 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsTwitter } from 'react-icons/bs'
 
 const Footer = () => {
+  let homeUrl = '#'
+
   return (
     <footer>
       <div className="container footer__container">
         <div>
           <ul>
             <li>Quick Links</li>
-            <li><a href='#'><small>Home</small></a></li>
+            <li><a href={ homeUrl }><small>Home</small></a></li>
             <li><a href='#about'><small>About</small></a></li>
             <li><a href='#services'><small>Skills</small></a></li>
             <li><a href='#portfolio'><small>Portfolio</small></a></li>

@@ -149,7 +149,7 @@ const Portfolio = () => {
         {data.map(
           ({ id, image, title, github, demo, frontend, backend, info }) => {
             return (
-              <div className='card' key={id}>
+              <div key={ id } className='card' id={ id }>
                 <div className='card__image'>
                   <img src={image} alt={title} />
                 </div>
@@ -158,7 +158,7 @@ const Portfolio = () => {
                   <span>{info}</span>
                   <h4>Used Technoligies</h4>
 
-                  <div className='card__front-end'>
+                  <div key={ id } className='card__front-end'>
                     { frontend.map(({id, tech}) => {
                       return (
                         <span key={ id } className='label'>{ tech }</span>
@@ -172,7 +172,7 @@ const Portfolio = () => {
                       backend.map(({id, btech}) => {
                         // CHECKING IF THERE IS ANY BACKEND TECHNOLOGIES
                         if(btech === 'None') {
-                          return (<span></span>)
+                          return (<span key={ id } ></span>)
                         } else {
                           return (
                             <span key={ id } className='label'>{ btech }</span>
