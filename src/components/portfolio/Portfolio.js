@@ -9,7 +9,7 @@ const Portfolio = () => {
       id: 1,
       image: IMG_Z,
       title: 'Z-Services - Wigan',
-      info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel laborum natus officia. Quis assumenda non, minus alias veritatis laboriosam, corrupti doloremque, dicta qui suscipit reprehenderit dolor recusandae maiores? Corporis, quam, placeat adipisci asperiores atque sit qui earum optio quo commodi dolorem. Totam rerum quo quam sapiente laborum laudantium excepturi.',
+      info: 'Full-Stack Development Course - Milestone Project #1. It\'s a static website for a local window cleaner bussines. This project were created with pure HTML, CSS and Javascript. No frameworks were used.',
       github: 'https://github.com/milka77/z-services',
       demo: 'https://milka77.github.io/z-services/',
       frontend: [
@@ -26,7 +26,7 @@ const Portfolio = () => {
       image:
         'https://github.com/milka77/ms2_memorygame/raw/master/assets/images/game.png',
       title: '"FIA WEC" JavaScript Memory Game',
-      info: "It's an FIA WEC themed JavaScript memory game",
+      info: "Full-Stack Development Course - Milestone Project #2. It's an FIA WEC themed JavaScript memory game. Future plans: add a high score table to the project. Have Fun!",
       github: 'https://github.com/milka77/ms2_memorygame',
       demo: 'https://milka77.github.io/ms2_memorygame/',
       frontend: [
@@ -44,7 +44,7 @@ const Portfolio = () => {
       image:
         'https://raw.githubusercontent.com/milka77/ms3_cookbook/master/static/images/responsive.png',
       title: "Krisztian's Online CookBook",
-      info: "This project it's for food enthusiast who is want to share thier favorite recipies with others. The website has full CRUD functionality.",
+      info: "Full-Stack Development Course - Milestone Project #3. This project it's for food enthusiast who want to share thier favorite recipies with others. The website has full CRUD functionality.",
       github: 'https://github.com/milka77/ms3_cookbook',
       demo: 'https://ci-ms3-krisztians-cook-book.herokuapp.com/',
       frontend: [
@@ -64,7 +64,7 @@ const Portfolio = () => {
       image:
         'https://github.com/milka77/ci-ms4-simdriver-school/raw/master/media/simracing_school.png',
       title: 'SimDriver School - /Django webshop/',
-      info: "This Project is offering weekly setups and tutorials for Sim Racers. It's a subscription based service.",
+      info: "Full-Stack Development Course - Milestone Project #4. This Project is an e-commerce website with Stripe payment options. The site is offering weekly setups and tutorials for Sim Racers. It's a subscription based service with user account, login, payment.",
       github: 'https://github.com/milka77/ci-ms4-simdriver-school',
       demo: 'https://ci-ms4-simracing-school.herokuapp.com/',
       frontend: [
@@ -84,8 +84,8 @@ const Portfolio = () => {
       id: 5,
       image:
         'https://i.picsum.photos/id/1/1920/1080.jpg?hmac=F3y4Fj0qI8heo51givSFTbNc8P5g1eR8ztnE7zDiVDg',
-      title: 'Online CookBook - PHP-Laravel version',
-      info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel laborum natus officia. Quis assumenda non, minus alias veritatis laboriosam, corrupti doloremque, dicta qui suscipit reprehenderit dolor recusandae maiores? Corporis, quam, placeat adipisci asperiores atque sit qui earum optio quo commodi dolorem. Totam rerum quo quam sapiente laborum laudantium excepturi.',
+      title: 'Online CookBook - PHP {Laravel} version',
+      info: 'This project is the PHP {Laravel} version of my third milestone project with extra features added to the project. E.g. (User account, profile, admin page) Future plans: comments, like, share, favorite recipies.',
       github: 'https://github.com/milka77/CookBook-Laravel',
       demo: '#',
       frontend: [
@@ -104,7 +104,7 @@ const Portfolio = () => {
       id: 6,
       image: IMG_ART,
       title: 'Art Empire Publishing',
-      info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel laborum natus officia. Quis assumenda non, minus alias veritatis laboriosam, corrupti doloremque, dicta qui suscipit reprehenderit dolor recusandae maiores? Corporis, quam, placeat adipisci asperiores atque sit qui earum optio quo commodi dolorem. Totam rerum quo quam sapiente laborum laudantium excepturi.',
+      info: 'A freelancing project. The customer specifically asked for an old school web design, which was the main aspect of this project. For the contact section PHP with PHP-Mail was used.',
       github: 'https://github.com/milka77/art_empire',
       demo: 'http://www.artempirepublishing.com',
       frontend: [
@@ -123,7 +123,7 @@ const Portfolio = () => {
       image:
         'https://i.picsum.photos/id/1/1920/1080.jpg?hmac=F3y4Fj0qI8heo51givSFTbNc8P5g1eR8ztnE7zDiVDg',
       title: 'Home Application - PHP-MVC',
-      info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores vel laborum natus officia. Quis assumenda non, minus alias veritatis laboriosam, corrupti doloremque, dicta qui suscipit reprehenderit dolor recusandae maiores? Corporis, quam, placeat adipisci asperiores atque sit qui earum optio quo commodi dolorem. Totam rerum quo quam sapiente laborum laudantium excepturi.',
+      info: 'This project was made to help with our daily life in the family. Tracking energy bills from month to month, creating, and updating shopping lists "no more paper list which can be lost", tracking fitness activities (time, duration, distance) and experimenting with PHP and APIs.',
       github: 'https://github.com/milka77/php-homeapp',
       demo: '#',
       frontend: [
