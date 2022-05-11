@@ -1,0 +1,28 @@
+#mobile-nav {
+  display: none;
+}
+
+/* ------------------ Media Queries (Small devices) */
+@media screen and (max-width: 600px) {
+  #mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--color-bg-dark);
+    z-index: 10;
+  }
+
+  #mobile-nav ul li {
+    padding-bottom: 0.6rem;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+}

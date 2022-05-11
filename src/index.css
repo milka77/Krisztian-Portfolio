@@ -13,7 +13,7 @@
 /* VARIABLES */
 :root {
    --color-bg: #1f1f38;
-  --color-bg-dark: #101016;
+  --color-bg-dark: #12122bec;
   --color-bg-trans: rgba(31, 31, 56, 0.678);
   --color-bg-variant: #2c2c6c;
   --color-bg-overlay: rgba(0, 0, 0, 0.4);
@@ -60,6 +60,10 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.hamburger-button {
+  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -149,5 +153,13 @@ img {
 
   section > h2 { 
     margin-bottom:  2rem;
+  }
+
+  .hamburger-button {
+    display: block;
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 8;
   }
 }
