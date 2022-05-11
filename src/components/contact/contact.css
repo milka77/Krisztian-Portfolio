@@ -29,7 +29,7 @@
 }
 
 .form-item {
-  padding: 0.5rem;
+  padding: 0.75rem 0.5rem;
   display: block;
   width: 100%;
   background-color: var(--color-bg-trans);
@@ -75,4 +75,26 @@
 
 .contact__icon {
   margin-bottom: -2px;
+}
+
+.form-message-success {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  width: 50%;
+  margin: 0 auto 2rem auto;
+  padding: 0.5rem 0;
+  background-color: var(--color-bg-trans);
+  color: #06d506;
+}
+
+.form-message-error {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  width: 50%;
+  margin: 0 auto 2rem auto;
+  padding: 0.5rem 0;
+  background-color: var(--color-bg-trans);
+  color: #d50606;
 }
