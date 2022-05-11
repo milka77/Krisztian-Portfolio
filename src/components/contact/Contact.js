@@ -97,9 +97,9 @@ function Contact() {
             <p>
               Use the form on the site or write an{' '}
               <a href='mailto:krisztian.keseru@gmail.com'>
-                email <AiOutlineMail className='contact__icon' />
+                email <AiOutlineMail className='icon' />
               </a>{' '}
-              and I'll be in a touch with you.
+              and I'll be in touch with you.
             </p>
             <h3>Thank You!</h3>
           </div>
