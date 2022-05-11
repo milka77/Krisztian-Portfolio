@@ -12,12 +12,7 @@
 
 /* VARIABLES */
 :root {
-  /* --color-bg: #003060;
-  --color-bg-variant: #055C9D;
-  --color-primary: #0E86D4;
-  --color-primary-light: #68BBE3;
-  --color-primary-variant: #3283ac; */
-  --color-bg: #1f1f38;
+   --color-bg: #1f1f38;
   --color-bg-dark: #101016;
   --color-bg-trans: rgba(31, 31, 56, 0.678);
   --color-bg-variant: #2c2c6c;
@@ -100,11 +95,15 @@ img {
   object-fit: cover;
 }
 
+.icon {
+  margin-bottom: -2px;
+}
+
 .btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.55rem 1rem;
+  padding: 0.4rem 1rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
@@ -112,13 +111,24 @@ img {
   transition: var(--transition);
 }
 
-.btn:hover {
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  transition: var(--transition);
+}
+
+.btn-primary:hover {
   color: var(--color-primary);
   border: 1px solid var(--color-primary);
   background-color: var(--color-bg);
 }
 
-.btn-primary {
+.btn-outline-primary {
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn-outline-primary:hover {
   background-color: var(--color-primary);
   color: var(--color-bg);
 }

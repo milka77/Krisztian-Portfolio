@@ -52,3 +52,10 @@
   color: var(--color-bg);
   
 }
+
+/* ------------------ Media Queries (Small devices) */
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}

@@ -82,7 +82,7 @@ function Contact() {
               </div>
               <div className='submit'>
                 <button type='submit' className='btn btn-primary'>
-                  Send Message <AiOutlineMail className='contact__icon' />
+                  Send Message <AiOutlineMail className='icon' />
                 </button>
               </div>
             </form>

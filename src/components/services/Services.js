@@ -20,8 +20,8 @@ const Services = () => {
   return (
     <section id='services'>
       <div className='container'>
-        <h5>My Skills, Technologies, Frameworks</h5>
-        <h2 className='font-poppins'>Skills</h2>
+        <h5>Languages, Technologies, Frameworks</h5>
+        <h2 className='font-poppins'>Skillset</h2>
 
         <div className='skills__content'>
 

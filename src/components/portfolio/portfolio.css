@@ -58,18 +58,17 @@
 /* ------------------ Media Queries (Medium devices) */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.2rem;
   }
 
-  .flip {
-    width: 300px;
-    height: 300px;
-
+  .card {
+    grid-template-columns: 1fr;
   }
 
-  .card {
-    min-height: 15.5rem;
+  .card__image {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 

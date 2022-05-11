@@ -18,7 +18,9 @@ header {
   align-items: center;
 }
 
-.header__row{
+.header__row-1,
+.header__row-2,
+.header__row-3 {
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -135,4 +137,38 @@ header {
   height: 50px;
   margin: 0 auto;
   background-color: var(--color-white);
+}
+
+/* ------------------ Media Queries (Medium devices) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .social-email,
+  .social-links {
+    display: none;
+  }
+}
+
+/* ------------------ Media Queries (Small devices) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  /* .header__name-big {
+    font-size: 2rem;
+  } */
+
+  .header__row-2,
+  .header__row-3 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .header__row-3 {
+    padding-top: 2rem;
+  }
+  
 }

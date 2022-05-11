@@ -51,7 +51,11 @@
 .submit {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.submit button {
+  font-size: 1rem;
+  padding: .6rem 1rem;
 }
 
 .contact__info {
@@ -71,10 +75,6 @@
 
 .contact__info ul li::before {
   content: '- ';
-}
-
-.contact__icon {
-  margin-bottom: -2px;
 }
 
 .form-message-success {
@@ -97,4 +97,30 @@
   padding: 0.5rem 0;
   background-color: var(--color-bg-trans);
   color: #d50606;
+}
+
+/* ------------------ Media Queries (Medium devices) */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .contact__content {
+    width: 100%;
+  }
+}
+
+/* ------------------ Media Queries (Small devices) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  .contact__content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__form {
+    order: 2;
+  }
 }
