@@ -90,7 +90,7 @@ function Contact() {
 
           <div className='contact__info'>
             <ul>
-              <li>Have an project idea?</li>
+              <li>Have a project idea?</li>
               <li>Need a new website?</li>
               <li>Or just want to chat?</li>
             </ul>
