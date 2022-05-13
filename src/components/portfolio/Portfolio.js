@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG_Z from '../../assets/z.png'
 import IMG_ART from '../../assets/art.png'
+import IMG_PHPCOOK from '../../assets/php-cookbook.JPG'
 
 const Portfolio = () => {
   const data = [
@@ -82,12 +83,11 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      image:
-        'https://i.picsum.photos/id/1/1920/1080.jpg?hmac=F3y4Fj0qI8heo51givSFTbNc8P5g1eR8ztnE7zDiVDg',
+      image: IMG_PHPCOOK,
       title: 'Online CookBook - PHP {Laravel} version',
-      info: 'This project is the PHP {Laravel} version of my third milestone project with extra features added to the project. E.g. (User account, profile, admin page) Future plans: comments, like, share, favorite recipies.',
+      info: 'Application In Development! This project is the PHP {Laravel} version of my third milestone project with extra features added to the project. E.g. (User account, profile, admin page) Future plans: comments, like, share, favorite recipies.',
       github: 'https://github.com/milka77/CookBook-Laravel',
-      demo: '#',
+      demo: 'https://php-laravel-cookbook.herokuapp.com/',
       frontend: [
         { id: 1, tech: 'HTML' },
         { id: 2, tech: 'CSS' },
@@ -159,9 +159,10 @@ const Portfolio = () => {
                   <h4>Used Technoligies</h4>
 
                   <div key={ id } className='card__front-end'>
-                    { frontend.map(({id, tech}) => {
-                      return (
-                        <span key={ id } className='label'>{ tech }</span>
+                    { 
+                      frontend.map(({id, tech}) => {
+                        return (
+                          <span key={ id } className='label'>{ tech }</span>
                       )
                       })
                     }
@@ -172,7 +173,9 @@ const Portfolio = () => {
                       backend.map(({id, btech}) => {
                         // CHECKING IF THERE IS ANY BACKEND TECHNOLOGIES
                         if(btech === 'None') {
-                          return (<span key={ id } ></span>)
+                          return (
+                            <span key={ id } ></span>
+                          )
                         } else {
                           return (
                             <span key={ id } className='label'>{ btech }</span>
