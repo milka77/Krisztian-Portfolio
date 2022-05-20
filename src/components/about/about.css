@@ -61,6 +61,12 @@
 }
 
 /* ------------------ Media Queries (Medium devices) */
+@media screen and (max-width: 1400px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
