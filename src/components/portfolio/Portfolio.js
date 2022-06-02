@@ -10,7 +10,7 @@ const Portfolio = () => {
       id: 1,
       image: IMG_Z,
       title: 'Z-Services - Wigan',
-      info: 'Full-Stack Development Course - Milestone Project #1. It\'s a static website for a local window cleaner bussines. This project were created with pure HTML, CSS and Javascript. No frameworks were used.',
+      info: 'Full-Stack Development Course - Milestone Project #1. It\'s a static website for a local window cleaner business. This project were created with pure HTML, CSS and Javascript. No frameworks were used.',
       github: 'https://github.com/milka77/z-services',
       demo: 'https://milka77.github.io/z-services/',
       frontend: [
@@ -44,8 +44,8 @@ const Portfolio = () => {
       id: 3,
       image:
         'https://raw.githubusercontent.com/milka77/ms3_cookbook/master/static/images/responsive.png',
-      title: "Krisztian's Online CookBook",
-      info: "Full-Stack Development Course - Milestone Project #3. This project it's for food enthusiast who want to share thier favorite recipies with others. The website has full CRUD functionality.",
+      title: "Krisztian's Online Cookbook",
+      info: "Full-Stack Development Course - Milestone Project #3. This project it's for food enthusiast who want to share their favourite recipies with others. The website has full CRUD functionality.",
       github: 'https://github.com/milka77/ms3_cookbook',
       demo: 'https://ci-ms3-krisztians-cook-book.herokuapp.com/',
       frontend: [
@@ -84,7 +84,7 @@ const Portfolio = () => {
     {
       id: 5,
       image: IMG_PHPCOOK,
-      title: 'Online CookBook - PHP {Laravel} version',
+      title: 'Online Cookbook - PHP {Laravel} version',
       info: 'Application In Development! This project is the PHP {Laravel} version of my third milestone project with extra features added to the project. E.g. (User account, profile, admin page) Future plans: comments, like, share, favorite recipies.',
       github: 'https://github.com/milka77/CookBook-Laravel',
       demo: 'https://php-laravel-cookbook.herokuapp.com/',
@@ -156,7 +156,7 @@ const Portfolio = () => {
                 <div className='card__body'>
                   <h3>{title}</h3>
                   <span>{info}</span>
-                  <h4>Used Technoligies</h4>
+                  <h4>Used Technologies</h4>
 
                   <div key={ id } className='card__front-end'>
                     { 
