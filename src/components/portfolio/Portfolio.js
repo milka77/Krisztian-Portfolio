@@ -85,7 +85,7 @@ const Portfolio = () => {
       id: 5,
       image: IMG_PHPCOOK,
       title: 'Online Cookbook - PHP {Laravel} version',
-      info: 'Application In Development! This project is the PHP {Laravel} version of my third milestone project with extra features added to the project. E.g. (User account, profile, admin page) Future plans: comments, like, share, favorite recipies.',
+      info: 'Application in development! This project is the PHP {Laravel} version of my third milestone project with extra features added to the project. E.g. (User account, profile, admin page) Future plans: comments, like, share, favourite recipies.',
       github: 'https://github.com/milka77/CookBook-Laravel',
       demo: 'https://php-laravel-cookbook.herokuapp.com/',
       frontend: [
