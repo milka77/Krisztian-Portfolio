@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import Me from '../../assets/me.png'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Krisztian.Keseru.cv.pdf'
 import { HiOutlineDocumentDownload } from 'react-icons/hi'
 import { AiOutlineMail } from 'react-icons/ai'
 
