@@ -42,7 +42,7 @@ const Footer = () => {
             <li><small>Full-Stack Developer</small></li>
             <li><small><FaWhatsapp className='icon' /> +447453306232</small></li>
             <li><small><AiOutlineMail className='icon' /> <a href='mailto:krisztian.keseru@gmail.com'>krisztian.keseru@gmail.com</a></small></li>
-            <li><small><GoLocation className='icon' /> <a href='https://www.google.com/maps/@53.7698856,-2.7742158,14z' target='_blank' rel="noreferrer">Preston, Uk</a></small></li>
+            <li><small><GoLocation className='icon' /> <a href='https://www.google.com/maps/@53.7698856,-2.7742158,14z' target='_blank' rel="noopener noreferrer">Preston, Uk</a></small></li>
           </ul>
         </div>
 

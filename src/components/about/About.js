@@ -23,7 +23,7 @@ function About() {
                Developer career, I'm open to freelancing, Junior Developer positions or Internships. Feel free to <a href='#contact'>contact</a> me.
             </p>
             <div className='cv-button'>
-              <a href={ CV } className='btn btn-outline-primary' target='_blank'  rel='noreferrer'><HiOutlineDocumentDownload className='icon'/> Download My CV</a>
+              <a href={ CV } className='btn btn-outline-primary' target='_blank'  rel='noopener noreferrer'><HiOutlineDocumentDownload className='icon'/> Download My CV</a>
               <a href='#contact' className='btn btn-primary'><AiOutlineMail className='icon'/> Message Me</a>
             </div>
           </div>
