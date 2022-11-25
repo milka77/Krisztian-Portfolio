@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG_Z from '../../assets/z.png'
 import IMG_ART from '../../assets/art.png'
 import IMG_PHPCOOK from '../../assets/php-cookbook.JPG'
+import IMG_KEMALOK from '../../assets/kemalok.JPG'
 
 const Portfolio = () => {
   const data = [
@@ -136,6 +137,29 @@ const Portfolio = () => {
         { id: 1, btech: 'PHP' },
         { id: 2, btech: 'PHP MVC - Framework' },
         { id: 3, btech: 'MySQL' },
+      ],
+    },
+    {
+      id: 8,
+      image: IMG_KEMALOK,
+      title: 'Spartai Kemalok - Hungarian WoW guild {Laravel}',
+      info: 'This freelance project was created for a Hungarian WoW Guild. The portal has information for everyone about the guild roster, progress, recruitment using APIs for live data and important features for the guild leadership, attendance checking, and players Mythic+ activity which makes the guild lead run smoothly.',
+      github: 'https://github.com/milka77/spartai-kemalok-laravel',
+      demo: 'https://kemalok.hu',
+      frontend: [
+        { id: 1, tech: 'HTML' },
+        { id: 2, tech: 'CSS' },
+        { id: 3, tech: 'Tailwind CSS' },
+        { id: 4, tech: 'JavaScript, jQuery' },
+        { id: 4, tech: 'GIMP' },
+      ],
+      backend: [
+        { id: 1, btech: 'PHP' },
+        { id: 2, btech: 'Laravel 9 - Framework' },
+        { id: 3, btech: 'MySQL' },
+        { id: 4, btech: 'RaiderIO.API' },
+        { id: 5, btech: 'Blizzard.API' },
+        { id: 6, btech: 'Warcraftlog.API' },
       ],
     },
   ]
