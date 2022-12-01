@@ -180,7 +180,7 @@ const Portfolio = () => {
                 <div className='card__body'>
                   <h3>{title}</h3>
                   <span>{info}</span>
-                  <h4>Used Technologies</h4>
+                  <h4>Technologies Used:</h4>
 
                   <div key={ id } className='card__front-end'>
                     { 

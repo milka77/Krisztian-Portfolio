@@ -46,13 +46,18 @@
 .card__front-end,
 .card__back-end {
   padding: 0.3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .3rem;
+  margin-bottom: 0.5rem;
 }
+
 
 .label {
   background-color: rgba(61, 61, 61, 0.7);
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
-  margin-right: 0.3rem;
 }
 
 /* ------------------ Media Queries (Medium devices) */
